@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import { getRepos } from '../actions/repos'
 import { connect } from 'react-redux'
+import '../styles/Repos.css'
 
 
 class Repos extends Component {
@@ -15,8 +16,8 @@ class Repos extends Component {
                     {this.props.repos.map((repo, i) => (
                         <Fragment key = {`repoFrag${i}`}>
                             <li key = {`repo${i}`}>
-                                <p key = {`repoName${i}`}><a href={repo.html_url}>{repo.name}</a></p>
-                                <p key = {`repoLang${i}`}>{repo.language}</p>
+                                <p key = {`repoName${i}`} className="name"><a href={repo.html_url}>{repo.name}</a></p>
+                                <p key = {`repoLang${i}`} className="lang">{repo.language}</p>
                             </li>
                         </Fragment>
                             

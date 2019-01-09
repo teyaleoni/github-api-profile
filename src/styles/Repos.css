@@ -1,0 +1,22 @@
+li {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(105, 111, 118);
+}
+
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color:rgb(10, 77, 204);
+    text-decoration: underline;
+}
+
+.name {
+    font-size: 30px;
+    
+}
+
+a {
+    color: rgb(10, 77, 204)
+}

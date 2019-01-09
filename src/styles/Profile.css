@@ -1,0 +1,9 @@
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 6px;
+}
+
+.info {
+    line-height: 50px;
+}
